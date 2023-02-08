@@ -64,7 +64,7 @@ const Game = () => {
   });
 
   return (
-    <div className="game">
+    <div className={winner ? 'game disabled' : 'game'}>
       <div className="game-board">
         <Board
           onClick={(i) => handleClick(i)}

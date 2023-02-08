@@ -2,7 +2,10 @@ import React from 'react';
 
 const Square = (props) => {
   return (
-    <button className="btn" onClick={props.onClick}>
+    <button
+      className={props.value ? 'btn disabled' : 'btn'}
+      onClick={props.onClick}
+    >
       {props.value}
     </button>
   );

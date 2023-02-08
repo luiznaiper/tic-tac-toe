@@ -54,6 +54,28 @@ h1 {
   top: 0;
 }
 
+.disabled .btn {
+  cursor: default;
+}
+
+.disabled .btn:hover {
+  top: 0;
+  background: #20202a;
+  color: #fb8122;
+  box-shadow: 0 1.2rem #fb8122, 0 1.8rem rgba(0, 0, 0, 0.4);
+}
+
+.btn.disabled {
+  cursor: default;
+}
+
+.btn.disabled:hover {
+  top: 0;
+  background: #20202a;
+  color: #fb8122;
+  box-shadow: 0 1.2rem #fb8122, 0 1.8rem rgba(0, 0, 0, 0.4);
+}
+
 .btn:hover {
   background-color: #2b2b35;
   top: -0.4rem;
